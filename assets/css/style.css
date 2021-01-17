@@ -10,7 +10,7 @@ body {
 }
 
 nav {
-	width: 45%;
+	width: 55%;
 	margin: 0 auto;
 	background-color: #f0f7fa;
 }
@@ -18,4 +18,52 @@ nav {
 .nav-div {
 	width: 100%;
 	background-color: #f0f7fa;
+}
+
+.footer-div {
+	margin-top: 5%;
+}
+
+#header-p {
+	margin: 1%;
+}
+
+#header-img {
+	width: 250px;
+	height: 250px;
+	margin: 2%;
+}
+
+.fa {
+	color: #06805e;
+}
+
+.main-container {
+	width: 55%;
+}
+
+.img-svg {
+	width: 30px;
+	height: 30px;
+}
+.five {
+	margin: 5%;
+}
+.five > li > p {
+	margin-bottom: 0;
+}
+
+.right {
+	list-style: none;
+}
+
+.right > li > p > img {
+	margin: 2%;
+}
+.car-container {
+	color: white;
+	padding: 100px;
+}
+#lately img {
+	margin-left: 10px;
 }
