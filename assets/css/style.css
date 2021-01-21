@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 * {
 	margin: 0%;
 	padding: 0%;
 	box-sizing: border-box;
-	border: #06805e 1px solid;
+	/* border: #06805e 1px solid; */
 }
 
 body {
@@ -34,10 +36,7 @@ nav ul li a:before {
 }
 
 .nav-div {
-	display: flex;
-	align-items: center;
 	width: 100%;
-	height: 100px;
 	background-color: #f0f7fa;
 }
 h6 {
@@ -52,6 +51,17 @@ h6 {
 	width: 100%;
 
 	margin: 2%;
+}
+.one {
+	text-decoration: none;
+	color: #06805e;
+}
+.high {
+	font-family: 'Lora', serif;
+	color: black;
+}
+.i {
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }
 
 .fa {
@@ -108,20 +118,10 @@ h6 {
 	height: 30px;
 }
 
-.btn-group-sm {
-	background-color: #06805e;
-	width: 50.5%;
-	margin: 0 auto;
-}
-
-.btn-group-sm a {
-	background-color: #06805e;
-	border: #06805e;
-}
 .projects-grid {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 .card {
 	margin-top: 2%;
@@ -154,6 +154,7 @@ h6 {
 .hover-container {
 	position: relative;
 	width: 100%;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }
 
 .image {
@@ -193,7 +194,8 @@ h6 {
 
 a:hover {
 	color: #06805e !important;
-} /* stroke */
+}
+/*  stroke */
 nav.stroke ul li a,
 nav.fill ul li a {
 	position: relative;
@@ -241,10 +243,26 @@ nav.fill ul li a:hover:after {
 }
 
 .blog-img {
-	width: 100%;
-	height: min-content;
+	width: 50%;
+	height: 90%;
 }
 
+.blog {
+	height: 250px;
+}
+
+.vert {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.y {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	align-items: center;
+}
 @media (max-width: 480px) {
 	nav {
 		width: 100%;
@@ -252,7 +270,7 @@ nav.fill ul li a:hover:after {
 	.main-container {
 		width: 100%;
 	}
-	.blog-img {
+	.z {
 		display: none;
 	}
 	.dot {
@@ -270,12 +288,14 @@ nav.fill ul li a:hover:after {
 	.main-container {
 		width: 100%;
 	}
-	.blog-img {
-		visibility: ;
+	.z {
+		display: none;
 	}
+
 	.dot {
 		display: none;
 	}
-	#ex {
+	.projects-grid {
+		justify-content: space-evenly;
 	}
 }
