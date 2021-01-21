@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300&display=swap');
 
 * {
 	margin: 0%;
@@ -10,7 +11,7 @@
 
 body {
 	background-color: #f0f7fa;
-	font-family: 'Noto Sans HK', sans-serif;
+	font-family: 'Karla', sans-serif;
 	color: #6c757d;
 	letter-spacing: 1.5px;
 	font-size: 1rem;
@@ -255,6 +256,11 @@ nav.fill ul li a:hover:after {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+.vert p {
+	color: black;
+	font-size: large;
+	font-weight: 300;
 }
 
 .y {
