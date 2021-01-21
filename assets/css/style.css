@@ -125,7 +125,7 @@ h6 {
 	justify-content: space-evenly;
 }
 .card {
-	margin-top: 2%;
+	margin-top: 20%;
 	margin-left: 1%;
 }
 .i {
@@ -296,6 +296,12 @@ nav.fill ul li a:hover:after {
 	body {
 		font-size: small;
 	}
+
+	h3,h4{
+		font-size: small;
+	}
+	.min{
+display: none;	}
 }
 
 @media (max-width: 768px) {
